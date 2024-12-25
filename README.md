@@ -142,7 +142,25 @@ Windows:
 	
  
  3.	Install Dependencies
-    pip install -r requirements.txt
+   	 pip install -r requirements.txt
+
+
+Usage
+1.	Run the Dash App
+ 			python app.py
+
+
+2.	Explore the Dashboard
+	•	Open your browser and navigate to the URL displayed in your terminal (commonly http://127.0.0.1:8050).
+	•	Interact with the various components to uncover data insights.
+3.	Develop & Customize
+	•	Update data preprocessing in src/data/data_preprocessing.py.
+	•	Load new datasets with src/data/data_loader.py.
+	•	Modify the layout or add new pages in src/layouts/.
+	•	Add or adjust callbacks in src/callbacks/.
+4.	Run Tests (Optional)
+
+   pytest tests
 
 
 
